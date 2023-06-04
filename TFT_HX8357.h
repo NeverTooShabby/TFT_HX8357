@@ -333,6 +333,9 @@ class TFT_HX8357
            drawString(char *string, int16_t poX, int16_t poY, int16_t font),
            drawCentreString(char *string, int16_t dX, int16_t poY, int16_t font),
            drawRightString(char *string, int16_t dX, int16_t poY, int16_t font),
+	   
+	   getCursorX(void),
+           getCursorY(void),
 
            height(void),
            width(void),
