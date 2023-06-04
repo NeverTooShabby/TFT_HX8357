@@ -2456,6 +2456,27 @@ int16_t TFT_HX8357::drawRightString(char *string, int16_t dX, int16_t poY, int16
 }
 
 /***************************************************************************************
+** Function name:           getCursorX
+** Descriptions:            Return x component of cursor's current position
+***************************************************************************************/
+
+int16_t TFT_HX8357::getCursorX()
+{
+  return cursor_x;
+}
+
+
+/***************************************************************************************
+** Function name:           getCursorY
+** Descriptions:            Return y component of cursor's current position
+***************************************************************************************/
+
+int16_t TFT_HX8357::getCursorY()
+{
+  return cursor_y;
+}
+
+/***************************************************************************************
 ** Function name:           drawNumber
 ** Description:             draw a long integer
 ***************************************************************************************/
